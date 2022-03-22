@@ -1,0 +1,30 @@
+/* tapblet */
+@media(min-width : 768px) and (max-width:922px){
+    .col{
+        width: 100%;
+    }
+    
+    body{
+        margin: 0 10px;
+    }
+    
+}
+
+
+
+
+/* mobile */
+@media(max-width:768px){
+.col{
+    width: 100%;
+}
+
+body{
+    margin: 0 10px;
+}
+
+}
+
+.slider{
+    
+}

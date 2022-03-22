@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 200px 50px 50px;
+    background-color: aliceblue;
+}
+
+.header{
+    padding:20px 0;
+}
+
+.container{
+    margin: 30px 469px 50px 10px;
+}
+
+.slider{
+    background: url(../hinhanh/longson/chua-long-son-1_1627636381.png) top center/cover no-repeat;
+    height:600px;
+}
+
+.container-mention{
+    display: block;
+    
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.container-cover{
+    padding: 0 20px;
+}
+
+.container-image{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.text-paint{
+    display: block;
+    color: #0c3980;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.text-paint::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 3px solid #0c3980;
+    color: wheat;
+    height:18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left:1px;
+}
+
+.footer-space{
+    padding:10px 0;
+}
+
+.col{
+    width: 100%;
+}
+
